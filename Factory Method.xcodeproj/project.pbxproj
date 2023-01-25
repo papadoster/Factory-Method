@@ -13,6 +13,10 @@
 		5CCD23592980B23D005BEAD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CCD23572980B23D005BEAD8 /* Main.storyboard */; };
 		5CCD235B2980B23F005BEAD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CCD235A2980B23F005BEAD8 /* Assets.xcassets */; };
 		5CCD235E2980B23F005BEAD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CCD235C2980B23F005BEAD8 /* LaunchScreen.storyboard */; };
+		5CCD23662980B26B005BEAD8 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCD23652980B26A005BEAD8 /* Exercise.swift */; };
+		5CCD23682980B2E6005BEAD8 /* Jumping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCD23672980B2E6005BEAD8 /* Jumping.swift */; };
+		5CCD236A2980B384005BEAD8 /* Squarts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCD23692980B384005BEAD8 /* Squarts.swift */; };
+		5CCD236D2980B440005BEAD8 /* FactoryExercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCD236C2980B440005BEAD8 /* FactoryExercise.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		5CCD235A2980B23F005BEAD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5CCD235D2980B23F005BEAD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5CCD235F2980B23F005BEAD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CCD23652980B26A005BEAD8 /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		5CCD23672980B2E6005BEAD8 /* Jumping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jumping.swift; sourceTree = "<group>"; };
+		5CCD23692980B384005BEAD8 /* Squarts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Squarts.swift; sourceTree = "<group>"; };
+		5CCD236C2980B440005BEAD8 /* FactoryExercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryExercise.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +67,32 @@
 				5CCD23512980B23D005BEAD8 /* AppDelegate.swift */,
 				5CCD23532980B23D005BEAD8 /* SceneDelegate.swift */,
 				5CCD23552980B23D005BEAD8 /* ViewController.swift */,
+				5CCD236E2980B5AD005BEAD8 /* Factory */,
+				5CCD236B2980B397005BEAD8 /* Exercise */,
 				5CCD23572980B23D005BEAD8 /* Main.storyboard */,
 				5CCD235A2980B23F005BEAD8 /* Assets.xcassets */,
 				5CCD235C2980B23F005BEAD8 /* LaunchScreen.storyboard */,
 				5CCD235F2980B23F005BEAD8 /* Info.plist */,
 			);
 			path = "Factory Method";
+			sourceTree = "<group>";
+		};
+		5CCD236B2980B397005BEAD8 /* Exercise */ = {
+			isa = PBXGroup;
+			children = (
+				5CCD23652980B26A005BEAD8 /* Exercise.swift */,
+				5CCD23672980B2E6005BEAD8 /* Jumping.swift */,
+				5CCD23692980B384005BEAD8 /* Squarts.swift */,
+			);
+			path = Exercise;
+			sourceTree = "<group>";
+		};
+		5CCD236E2980B5AD005BEAD8 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				5CCD236C2980B440005BEAD8 /* FactoryExercise.swift */,
+			);
+			path = Factory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +167,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				5CCD23562980B23D005BEAD8 /* ViewController.swift in Sources */,
+				5CCD236A2980B384005BEAD8 /* Squarts.swift in Sources */,
+				5CCD23662980B26B005BEAD8 /* Exercise.swift in Sources */,
 				5CCD23522980B23D005BEAD8 /* AppDelegate.swift in Sources */,
+				5CCD23682980B2E6005BEAD8 /* Jumping.swift in Sources */,
 				5CCD23542980B23D005BEAD8 /* SceneDelegate.swift in Sources */,
+				5CCD236D2980B440005BEAD8 /* FactoryExercise.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
